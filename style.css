@@ -15,7 +15,7 @@ body{
 
 .card__container{
     background-color: white;
-    width: 22%;
+    width: 24%;
     display: flex;
     row-gap: 1rem;
     flex-direction: column;
@@ -41,13 +41,14 @@ body{
 .card__body .tag{
     background-color: hsl(47, 88%, 63%);
     width: fit-content;
-    padding: 0.2rem 0.75rem;
+    padding: 0.4rem 0.75rem;
     font-weight: 800;
-    border-radius: 10px;
+    border-radius: 4px;
 }
 
-.card__body p{
+.card__body p.paragraph{
     color: hsl(0, 0%, 42%);
+    width: 100%;
     line-height: 1.45rem;
 }
 
